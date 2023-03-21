@@ -1,0 +1,73 @@
+.block#cover{
+    .video{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        display: block;
+    }
+    .holder{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        .title{
+            max-width: 360px;
+            width: 100%;
+            margin-bottom: 40px;
+            height: 164px;
+            overflow: hidden;
+            display: block;
+            h1{
+                font-family: "Urbane-Light";
+                font-size: 34px;
+                color: $color-1;
+                animation-duration: 1s;
+                animation-fill-mode: both;
+                animation-delay: 0s;
+                strong{
+                    font-family: "Urbane-Bold";
+                    color: $color-5;
+                }
+            }
+        }
+        .subtitle{
+            max-width: 345px;
+            width: 100%;
+            margin-bottom: 130px;
+            height: 17px;
+            overflow: hidden;
+            display: block;
+            h2{
+                font-family: "Urbane-Light";
+                font-size: 14px;
+                color: $color-1;
+                animation-duration: 1s;
+                animation-fill-mode: both;
+                animation-delay: 0.2s;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .block#cover{
+        .holder{
+            .title{
+                max-width: 747px;
+                margin-bottom: 50px;
+                height: 106px;
+                h1{
+                    font-size: 44px;
+                }
+            }
+            .subtitle{
+                max-width: 445px;
+                margin-bottom: 60px;
+                height: 21px;
+                h2{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

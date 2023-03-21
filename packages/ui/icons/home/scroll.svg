@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AETERNUM" transform="translate(-191.000000, -836.000000)" fill="#6039E4" fill-rule="nonzero">
+            <g id="Group" transform="translate(191.500000, 836.500000)">
+                <polygon id="Path-2" points="16.326087 7.5 16.326087 22.5 15.326087 22.5 15.326087 7.5"></polygon>
+                <polygon id="Path-5" points="22.4942727 14.1464466 23.2013795 14.8535534 15.673913 22.3810198 8.14644661 14.8535534 8.85355339 14.1464466 15.674 20.967"></polygon>
+                <path d="M15.5,0 C6.93958638,0 0,6.93958638 0,15.5 C0,24.0604136 6.93958638,31 15.5,31 C24.0604136,31 31,24.0604136 31,15.5 C31,6.93958638 24.0604136,0 15.5,0 Z M15.5,1 C23.5081289,1 30,7.49187113 30,15.5 C30,23.5081289 23.5081289,30 15.5,30 C7.49187113,30 1,23.5081289 1,15.5 C1,7.49187113 7.49187113,1 15.5,1 Z" id="Oval"></path>
+            </g>
+        </g>
+    </g>
+</svg>

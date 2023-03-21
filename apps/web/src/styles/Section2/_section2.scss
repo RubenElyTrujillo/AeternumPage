@@ -1,0 +1,54 @@
+.block.section2{
+    padding: 130px 0 160px 0;
+    .partOne{
+        max-width: 360px;
+        width: 100%;
+        height: 57px;
+        overflow: hidden;
+        margin: 0 auto;
+        text-align: center;
+        h3{
+            font-family: "Urbane-Light";
+            font-size: 16px;
+            color: $color-3;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-delay: 0s;
+        }
+    }
+    .partTwo{
+        max-width: 360px;
+        width: 100%;
+        height: 114px;
+        overflow: hidden;
+        margin: 40px auto 0 auto;
+        text-align: center;
+        h3{
+            font-family: "Urbane-Light";
+            font-size: 16px;
+            color: $color-3;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-delay: 0s;
+        }
+    }
+}
+@media (min-width: 768px){
+    .block.section2{
+        padding: 200px 0 230px 0;
+        .partOne{
+            max-width: 663px;
+            height: 43px;
+            h3{
+                font-size: 18px;
+            }
+        }
+        .partTwo{
+            max-width: 663px;
+            height: 86px;
+            h3{
+                font-size: 18px;
+            }
+        }
+    }
+}

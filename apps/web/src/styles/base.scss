@@ -1,0 +1,85 @@
+$color-1: #f3f3f3;
+$color-2: #4e82e7;
+$color-3: #05003D;
+$color-4: #d8d8d8;
+$color-5: #6039E4;
+$color-6: #606060;
+$color-7: #FBFBFB;
+
+@font-face {
+    font-family: "Urbane-Light";
+    src: url("../fonts/Urbane-Light.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Urbane-Medium";
+    src: url("../fonts/Urbane-Medium.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Urbane-Bold";
+    src: url("../fonts/Urbane-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+.outer-wrapper{
+    overflow: hidden;
+    position: relative;
+}
+.block{
+    position: relative;
+}
+.holder{
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-fluid{
+    padding: 0 15px;
+}
+img{
+    position: relative !important;
+    display: block;
+}
+svg {
+    position: relative; /* o absolute o fixed */
+}
+@import './Navbar/navbar';
+@import './Cover/cover';
+@import './Section2/section2';
+@import './Section3/section3';
+@import './Section4/section4';
+
+
+.fadeInBottom { 
+    animation-name: fadeInBottom;
+}
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { 
+        opacity: 1;
+    }
+}
+.fadeIn {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
