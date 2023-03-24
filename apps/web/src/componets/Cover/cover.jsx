@@ -1,6 +1,8 @@
 import React from 'react'
 import BlockContent from "@sanity/block-content-to-react"
 
+//Esto es un comentario de prueba
+
 export default function Cover({ section }){
     return(
         <section className='block cover' id='cover'>
